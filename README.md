@@ -1,4 +1,4 @@
-# Stock-and-Crypto-Portfolio
+# Stock and Crypto Portfolio
 
 Stock and Crypto Portfolio that compares the positions you own with the current price of the asset.
 
