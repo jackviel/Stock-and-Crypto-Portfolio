@@ -11,6 +11,10 @@ headers = {
 
 locale.setlocale(locale.LC_ALL, '')
 
+print("Stock and Crypto Portfolio")
+print()
+print("Your Holdings:")
+
 with open('positions.txt','r') as file:
 
     for line in file:
@@ -27,3 +31,4 @@ with open('positions.txt','r') as file:
         print(info[1] + " shares of " + info[0] + " = " + initialValue + ", now worth " + currentValue + ", for a " + netChange + " net change.")
 
     print()
+
